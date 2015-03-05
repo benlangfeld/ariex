@@ -1,0 +1,2 @@
+defmodule ARIex do
+end
