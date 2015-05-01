@@ -21,6 +21,7 @@ defmodule ARIex.Mixfile do
         :logger,
         :httpoison,
         :socket,
+        :poison,
       ]
     ]
   end
@@ -29,6 +30,7 @@ defmodule ARIex.Mixfile do
     [
       {:httpoison, "~> 0.6"}, # For executing commands against Asterisk
       {:socket, "~> 0.2"}, # For reading Asterisk events via WebSocket
+      {:poison, "~> 1.4"}, # For parsing JSON events
     ]
   end
 
