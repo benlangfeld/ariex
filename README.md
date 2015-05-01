@@ -8,6 +8,10 @@ A client for Asterisk ARI in Elixir.
 
 ## Usage
 
+## Development
+
+An Asterisk instance in Docker is provided. To boot, install docker-compose (http://docs.docker.com/compose/) and run `docker-compose up`.
+
 ## Links:
 * [Source](https://github.com/benlangfeld/ariex)
 * [Documentation](https://hex.pm/packages/ariex)
