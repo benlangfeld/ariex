@@ -1,0 +1,25 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "put",
+      "options": {
+        "connect_timeout": 5000
+      },
+      "url": "http://192.168.59.103:8088/ari/deviceStates/foo?api_key=asterisk:asterisk&deviceState=busy"
+    },
+    "response": {
+      "body": "{\n  \"name\": \"foo\",\n  \"state\": \"INVALID\"\n}",
+      "headers": {
+        "Server": "Asterisk/13.3.0",
+        "Date": "Sun, 03 May 2015 22:31:54 GMT",
+        "Cache-Control": "no-cache, no-store",
+        "Content-type": "application/json",
+        "Content-Length": "41"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

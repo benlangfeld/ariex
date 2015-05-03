@@ -1,0 +1,25 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "connect_timeout": 5000
+      },
+      "url": "http://192.168.59.103:8088/ari/asterisk/info?api_key=asterisk:asterisk"
+    },
+    "response": {
+      "body": "{\n  \"build\": {\n    \"os\": \"Linux\",\n    \"kernel\": \"2.6.32-279.14.1.el6.x86_64\",\n    \"machine\": \"x86_64\",\n    \"options\": \"LOADABLE_MODULES, OPTIONAL_API\",\n    \"date\": \"2015-04-01 19:44:05 UTC\",\n    \"user\": \"root\"\n  },\n  \"system\": {\n    \"version\": \"13.3.0\",\n    \"entity_id\": \"02:42:ac:11:00:19\"\n  },\n  \"config\": {\n    \"name\": \"\",\n    \"default_language\": \"en\",\n    \"setid\": {\n      \"user\": \"\",\n      \"group\": \"\"\n    }\n  },\n  \"status\": {\n    \"startup_time\": \"2015-05-01T02:01:53.661+0000\",\n    \"last_reload_time\": \"2015-05-01T02:01:53.661+0000\"\n  }\n}",
+      "headers": {
+        "Server": "Asterisk/13.3.0",
+        "Date": "Sun, 03 May 2015 21:03:37 GMT",
+        "Cache-Control": "no-cache, no-store",
+        "Content-type": "application/json",
+        "Content-Length": "544"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

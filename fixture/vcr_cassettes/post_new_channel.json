@@ -1,0 +1,25 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "post",
+      "options": {
+        "connect_timeout": 5000
+      },
+      "url": "http://192.168.59.103:8088/ari/channels?api_key=asterisk:asterisk&endpoint=SIP%2Ffoo"
+    },
+    "response": {
+      "body": "[]",
+      "headers": {
+        "Server": "Asterisk/13.3.0",
+        "Date": "Sun, 03 May 2015 21:52:51 GMT",
+        "Cache-Control": "no-cache, no-store",
+        "Content-type": "application/json",
+        "Content-Length": "2"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

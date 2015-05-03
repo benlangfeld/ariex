@@ -1,0 +1,25 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "delete",
+      "options": {
+        "connect_timeout": 5000
+      },
+      "url": "http://192.168.59.103:8088/ari/channels/12345?api_key=asterisk:asterisk&reason=busy"
+    },
+    "response": {
+      "body": "{\n  \"message\": \"Channel not found\"\n}",
+      "headers": {
+        "Server": "Asterisk/13.3.0",
+        "Date": "Sun, 03 May 2015 22:37:10 GMT",
+        "Cache-Control": "no-cache, no-store",
+        "Content-type": "application/json",
+        "Content-Length": "36"
+      },
+      "status_code": 404,
+      "type": "ok"
+    }
+  }
+]
