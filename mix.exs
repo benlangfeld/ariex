@@ -28,6 +28,7 @@ defmodule ARIex.Mixfile do
 
   defp deps do
     [
+      {:mix_test_watch, "~> 0.1.0"},
       {:httpoison, "~> 0.6"}, # For executing commands against Asterisk
       {:socket, "~> 0.2"}, # For reading Asterisk events via WebSocket
       {:poison, "~> 1.4"}, # For parsing JSON events
