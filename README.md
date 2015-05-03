@@ -9,7 +9,7 @@ A client for Asterisk ARI in Elixir.
 ## Usage
 
 ```elixir
-iex(1)> Ariex.Listener.listen("192.168.59.103", 8088, "asterisk", "asterisk", "test")
+iex(1)> ARIex.Listener.listen("192.168.59.103", 8088, "asterisk", "asterisk", "test")
 {:ok, #PID<0.169.0>}
 iex(2)> flush()
 %{"application" => "test", "args" => [],

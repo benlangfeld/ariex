@@ -1,4 +1,4 @@
-defmodule Ariex.Listener do
+defmodule ARIex.Listener do
   @moduledoc """
   Wrap the websocket listener in a process which dispatches received events
   """
